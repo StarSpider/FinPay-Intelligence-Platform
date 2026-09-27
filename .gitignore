@@ -1,0 +1,47 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Spring Boot
+HELP.md
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/*.tfvars
+
+# Docker
+.env
+
+# Test output
+pact/
